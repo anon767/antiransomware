@@ -1,4 +1,4 @@
-# Anti Ransomware Experiments
+# Anti Ransomware Tool
 
 Ransomware malware is a software program which scans for sensitive files and encrypts them. They usually then try to convince the user to pay a ransom to get the decryption key.
 There is some research work on how to detect ransomware using file-based entropy. Files with higher entropy are likely being encrypted [1,2]. 
@@ -24,6 +24,8 @@ Adjust this and save it as install.reg, then double-click on it.
 "RequireSignedAppInit_DLLs"=dword:00000000
 ```
 
+## Disclaimer
+This is only for educational purposes.
 
 
 
