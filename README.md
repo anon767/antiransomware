@@ -14,6 +14,16 @@ This project offers a new way to detect ransomware. We inject a DLL into user pr
 Build the injector and the anticrypter library as x64. Place them in the same folder and run the injector as Admin. A small system tray icon appears.
 Now every process will be monitored for suspicious file access. If something has been detected, the write is being blocked.
 
+Injector logs are written to:
+```
+%temp%/injector_log.txt
+```
+Anticrypter logs are written to:
+```
+%temp%/write_intercept.txt 
+```
+
+
 ## System Integration
 You can automatically inject the anticrypter dll into any starting process (that depends on user32.dll).
 Adjust this and save it as install.reg, then double-click on it.
