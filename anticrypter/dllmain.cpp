@@ -323,8 +323,8 @@ BOOL APIENTRY DllMain(HMODULE hModule,
     switch (ul_reason_for_call)
     {
     case DLL_PROCESS_ATTACH:
-        InstallHooks(); // Install the hooks when the DLL is loaded
-        DisableThreadLibraryCalls(hModule); // Optional: Disable DLL_THREAD_ATTACH and DLL_THREAD_DETACH to optimize performance
+        InstallHooks(); 
+        DisableThreadLibraryCalls(hModule); 
         break;
     case DLL_THREAD_ATTACH:
         break;
