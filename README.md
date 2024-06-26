@@ -26,7 +26,7 @@ Anticrypter logs are written to:
 
 ## System Integration
 You can automatically inject the anticrypter dll into any starting process (that depends on user32.dll).
-Adjust this and save it as install.reg, then double-click on it.
+Adjust this and save it as install.reg.
 ```
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows]
 "AppInit_DLLs"="PathToDLL.dll"
